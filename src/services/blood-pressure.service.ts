@@ -4,7 +4,6 @@ import { GradeIHypertension } from "../models/blood-pressure-models/grade-i-hype
 import { GradeIIHypertension } from "../models/blood-pressure-models/grade-ii-hypertension-category.model";
 import { GradeIIIHypertension } from "../models/blood-pressure-models/grade-iii-hypertension-category.model";
 import { HighNormalBloodPressure } from "../models/blood-pressure-models/high-normal-category.model";
-import { IsolatedSystolicHypertension } from "../models/blood-pressure-models/isolated-systolic-hypertension-category.model";
 import { NormalBloodPressure } from "../models/blood-pressure-models/normal-category.model";
 import { OptimalBloodPressure } from "../models/blood-pressure-models/optimal-category.model";
 
@@ -36,10 +35,6 @@ export class BloodPressureService{
 
         if ((sys >= 160 && sys < 180) && (dia >= 100 && dia < 110)){
             return new GradeIIHypertension();
-        }
-
-        if (sys >= 140 && dia < 90){
-            return new IsolatedSystolicHypertension();
         }
 
         throw new UnidentifiedBloodPressureCategoryError('The blood pressure category could not be specified!');

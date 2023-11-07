@@ -8,8 +8,6 @@ import LoginValidationForm from "../LoginValidationForm/LoginValidationForm";
 import { UserToken } from "../../../models/user-token.model";
 import { ErrorMessage } from "../../../models/error-message.model";
 import { LoggingService } from "../../../services/logging.service";
-import BMIIndicator from "../../BMIIndicator/BMIIndicator";
-import Navigation from "../../Navigation/Navigation";
 
 const Login = () => {
   const passwordService: PasswordValidationService =
