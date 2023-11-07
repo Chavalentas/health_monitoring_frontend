@@ -1,0 +1,40 @@
+.dashboard-background{
+    background-image: url('../../../assets/images/health_background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.dashboard-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.entries-and-button-panel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.entry-panel-button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.horizontal-widgets-panel{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}

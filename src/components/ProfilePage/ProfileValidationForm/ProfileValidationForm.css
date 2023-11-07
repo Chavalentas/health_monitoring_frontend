@@ -1,0 +1,25 @@
+.password-accordion{
+    margin-top: 10px;
+}
+
+.update-confirm-button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.update-password-confirm-button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delete-button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+}

@@ -1,0 +1,81 @@
+.bp-indicator-card{
+    width: 40rem;
+}
+
+.bp-category-card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.bp-category-card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bp-category-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.bp-check-dot{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bp-category-description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#bp-optimal-card{
+    background-color: lightgreen;
+}
+
+#bp-normal-card{
+    background-color: green;
+}
+
+#bp-high-normal-card{
+    background-color: greenyellow;
+}
+
+#bp-grade-i-card{
+    background-color: lightpink;
+}
+
+#bp-grade-ii-card{
+    background-color: lightcoral;
+}
+
+#bp-grade-iii-card{
+    background-color: red;
+}
+
+.bp-sys-blood-pressure-container{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bp-dia-blood-pressure-container{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bp-blood-pressure-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

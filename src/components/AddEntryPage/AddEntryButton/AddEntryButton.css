@@ -1,0 +1,14 @@
+.add-button{
+    border-radius: 50%; 
+    width: 45px; 
+    height: 45px; 
+    background-color: gray; 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }

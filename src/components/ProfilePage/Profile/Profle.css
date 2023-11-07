@@ -1,0 +1,41 @@
+.profile-background{
+    background-image: url('../../../assets/images/health_background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.password-accordion{
+    margin-top: 10px;
+}
+
+.update-confirm-button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.update-password-confirm-button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delete-button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+}

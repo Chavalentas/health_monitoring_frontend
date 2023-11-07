@@ -1,0 +1,53 @@
+.add-button{
+    border-radius: 50%; 
+    width: 45px; 
+    height: 45px; 
+    background-color: gray; 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.health-indicator-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-data-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-button-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.entry-button-title{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.error-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: red;
+}
+
+.info-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: blue;
+}

@@ -1,0 +1,30 @@
+.card{
+    width: 25%;
+}
+
+.form-control{
+    background-color: lightgray!important;
+}
+
+.button-panel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: red;
+}
+
+.info-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: blue;
+}

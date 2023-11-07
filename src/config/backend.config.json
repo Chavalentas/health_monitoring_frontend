@@ -1,0 +1,4 @@
+{
+    "server": "https://health-db-service.onrender.com",
+    "hashingRounds": 10
+}
